@@ -50,9 +50,9 @@ public class RabinKarp {
  
     public static void main(String[] args)
     {
-        String txt = "GEEKS FOR GEEKS";
-        String pat = "GEEK";
-        int q = 101; // A prime number
+        String txt = "COMPUTER SCIENCE";
+        String pat = "SCIENCE";
+        int q = 101;
         search(pat, txt, q);
     }
 }
